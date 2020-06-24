@@ -57,4 +57,9 @@ function __kob_help {
 	__kobman_echo_white "help         : $ kob help"
         __kobman_echo_white "               Displays the KOBman manual"
 	__kobman_echo_white ""
+	
+	#Please include the commands "update" and "upgrade"
+	# $kob selfupdate : updates KOBman to the next version available
+	# $kob upgrade : Upgrades to the new major version eg: $kob upgrade -env von-network
+	# $kob update : Syncs local with remote by incorporating the small changes done in remote 
 }
